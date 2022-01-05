@@ -1,0 +1,55 @@
+[
+
+    {
+        "id" : 1,
+        "header" : "what is fundital?",
+        "body" : "Fundital is an e-learning service that offers a variety of courses and tutorials from basic education to all real-life applicable training "
+        
+    },
+
+    {
+        "id" : 2,
+        "header" : "How much does fundital cost ?" ,
+        "body" : "you can stream your courses on cross-platforms , all for a low fixed monthly subscription fee starting from R50.00 per month."
+        
+    },
+
+    {
+        "id" : 3,
+        "header" : "Where can I watch?",
+        "body" : "Watch on Fundutal website and you can also download fundital app on playstore"
+        
+    },
+
+    {
+        "id" : 4,
+        "header" : "Does fundital have offline capabilities ",
+        "body" :"Download Fundital app on playstore and you'll be able to download course videos and content so you can whatch even when you don't have mobile data access or internet."
+        
+    },
+
+
+    {
+        "id" : 6,
+        "header" : "Do I get certificate after finishing my courses?",
+        "body" :"Fundital is working with accredition bodies to offer graduation courses in which you will acquire accredited qualification at the end of the course."
+        
+    },
+
+
+    {
+        "id" : 7,
+        "header" : "Will I have to sign a binding payment contract on Fundital?" ,
+        "body" : "Fundital offers a flexible payment plans, you can cancel your subsription anytime, No stresfull contracts and No commitments"
+        
+    },
+
+
+    {
+        "id" : 8,
+        "header" : "Who's eligible for Learning on fundital",
+        "body" :"Fundital is open to anyone looking to aquire advance skill , pass their high School with outstanding results or anyone looking to improve their skills and be outstanding in their Organisation."
+        
+    }
+
+]
