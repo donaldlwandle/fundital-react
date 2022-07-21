@@ -1,8 +1,15 @@
 import React from "react";
-import { JumbotronContainer } from "../containers/jumbotronContainer";
-import { AccordionContainer } from "../containers/accordionContainer";
-import { FooterContainer } from "../containers/footerContainer";
+
+import AccordionContainer from "../containers/accordionContainer";
 import HeaderContainer from "../containers/headerContainer";
+import FooterContainer from "../containers/footerContainer";
+import JumbotronContainer from "../containers/jumbotronContainer";
+import CarouselContainer from "../containers/carouselContainer";
+import HeaderrContainer from "../containers/HeaderrContainer";
+import GlobeContainer from "../containers/globeContainer";
+
+
+
 
 
 export default function HomePage(){
@@ -10,13 +17,21 @@ export default function HomePage(){
     return(
 
         <>
-          <HeaderContainer>
 
-          </HeaderContainer>
+          <HeaderrContainer  bg={"#0a102a"} page={"home"}/>
+          {/* <HeaderContainer bg={"#0a102a"} page={"home"}/> */}
 
-          <JumbotronContainer/> 
+          <GlobeContainer bg={"#0a102a"}  page={"home"}/>
+          
+
+          <CarouselContainer/>
+
+          <JumbotronContainer/>
+
           <AccordionContainer/>
+          
           <FooterContainer/>
+          
         </>
 
 

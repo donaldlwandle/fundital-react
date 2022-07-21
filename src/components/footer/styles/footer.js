@@ -6,10 +6,15 @@ export const Container = styled.div`
     padding : 40px ;
     justify-content : space-between;
     flex-direction : column;
-    border-top : 2px solid  #c8c8c8;
+    background-color: inherit;
+    border-top: 1px solid #585d62;
+    padding : 20px 20px ;
+    margin-right:30px;
+    margin-left:30px;
+    
 
     @media(max-with : 1000px){
-        padding : 60px 20px ;
+        
 
     }
 
@@ -43,15 +48,16 @@ export const Container = styled.div`
  export const Link = styled.a`
     margin-bottom : 20px;
     font-size : 13px;
-    color: #141c2c;
+    color: inherit;
     font-weight: 400;
-    margin : 20px;
+    margin-right : 20px;
     text-decoration : none;
  `;
 
  export const Text = styled.p`
     font-size : 14px ;
-    margin-bottom : 40px;
+    margin-bottom : 10px;
+    color:#585d62;
  `;
 
  export const Title = styled.p`

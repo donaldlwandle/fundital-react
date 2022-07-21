@@ -11,12 +11,16 @@ export const Link = styled(ReactRouterLink)`
         text-decoration: underline;
     }
 
+    
+    
+
 `;
 
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
-    padding: 70px 0px;
+    padding: 60px 0px;
+    background-color: #080a0e;
     width: 100%;
     
     margin: auto;
@@ -27,15 +31,27 @@ export const Container = styled.div`
         
         flex-direction: column;
     }
+
+    @media (max-width: 545px) {
+        background-color: #141c2c;
+    }
     
 
 `;
 
-export const Title = styled.h2`
+export const Title = styled.h1`
 
     text-align:center;
-    margin-top: 50px;
-    font-size: calc(1.325rem + .9vw);
+    margin-top: 20px;
+    font-size: 24px;
+    color: #c9d1d9 ;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+
+    @media (max-width: 600px) {
+        margin-top: 16px;
+        font-size: 20px;
+    }
     
 
 `;
@@ -43,24 +59,33 @@ export const Title = styled.h2`
 export const Title2 = styled.h2`
 
     text-align:center;
-    color:white ;
+    color: #c9d1d9 ;
     font-size: calc(1.325rem + .9vw);
     
 
 `;
 
 export const Text = styled.label`
-    font-weight: bold;
+    display: block;
+    margin-bottom: 7px;
+    font-weight: 400;
+    text-align: left;
+    color: #c9d1d9 ;
+
+    
     
     
 
 `;
 
 export const TextSmall = styled.p`
-    color: white;
-    text-align:center;
+    color: #c9d1d9 ;
     margin-top: .5rem!important;
     margin-bottom: .5rem!important;
+    text-align: center;
+
+    
+    
 
     
 
@@ -76,6 +101,7 @@ export const TextSmall2 = styled.p`
 
 export const TextSmallOr = styled.p`
     padding: 0px 20px;
+    color: #c9d1d9 ;
     
 
 `;
@@ -83,60 +109,48 @@ export const TextSmallOr = styled.p`
 
 
 export const Frame = styled.div`
-   display: flex;
-   width: 50%;
-   border-top-left-radius: 10px;
-   border-bottom-left-radius: 10px;
-   background-color: white;
-   flex-direction: column; 
-   padding: 4rem!important;
-
-   @media (max-width: 600px) {
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
-   }
+    width: 30%;
+    display: auto;
+    padding: 20px;
+    font-size: 14px;
+    margin-top:1em;
+    background-color: #141c2c;
+    border: 1px solid #585d62;
+    border-radius: 6px;
+   
+    @media (max-width: 600px) {
+        width: 70%;
+        font-size: 12px;
+    }
+    
     
 
 `;
 
-export const FrameRight = styled.div`
-   display: flex;
-   width: 50%;
-   border-top-right-radius: 10px;
-   justify-content:center;
-   border-bottom-right-radius: 10px;
-   background-color: #141c2c;
-   flex-direction: column; 
-   padding: 4rem!important;
-   
 
-   @media (max-width: 600px) {
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        border-top-right-radius: 0;
-        border-top-left-radius: 0;
-   }
+export const FrameRight = styled.div`
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 `;
 
 export const Pane = styled.div`
 
     display: flex;
     align-items: center;
+    flex-direction: column;
     
 `;
 
 export const PaneSpace = styled.div`
 
     display: flex;
-    justify-content: space-between;
-    align-items:center;
-    margin-bottom: 1rem;
+    align-items: center;
+    flex-direction: row;
 `;
 
 export const Line = styled.div`
-    background-color: #ccc;
+    background-color: #585d62;
     flex-grow: 5;
     height: 1px;
 `;
@@ -144,19 +158,13 @@ export const Line = styled.div`
 
 export const Wraper = styled.div`
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    border-radius: 10px;
+   align-items: center;
    max-width: 1060px;
-   border-color: #f8f9fa!important;
-   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
    margin: auto;
    width: 100%;
 
-   @media (max-width: 600px) {
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-   }
 
    @media (max-width: 1000px) {
     max-width: 650px;
@@ -167,27 +175,30 @@ export const Wraper = styled.div`
 export const Base = styled.form`
     display: flex;
     flex-direction : column;
-    margin-top: 30px
+    margin-top: 0.5em;
 
     
 
 `;
 
 export const Input = styled.input`
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 20px;
     margin-bottom:20px;
     margin-top: 5px;
     display: block;
-    padding: .370rem .65rem;
-    font-size: 1rem;
-    font-weight: 350;
-    line-height: 1.5;
-    color: #212529;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 2px solid #ecf2ff;
+    color: #c9d1d9 ;
+    background-color: #080a0e;
+    border: 1px solid #585d62;
+    border-radius: 6px;
     appearance: none;
-    border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
+
+    @media (max-width: 600px) {
+        
+        font-size: 12px;
+    }
    
     
 
@@ -211,6 +222,8 @@ export const CheckBox = styled.input`
     background-position: center;
     background-size: contain;
 
+    
+
     &:checked[type=checkbox]{
         background-color: #0d6efd;
         border-color: #0d6efd;
@@ -224,20 +237,19 @@ export const CheckBox = styled.input`
 
 export const Button = styled.button`
     cursor: pointer;
-    background-color: #141c2c;
+    background-color: #ffa30c;
     border-color: #141c2c;
     width: 100%;
+    padding: 5px 12px;
     margin-bottom: 1rem!important;
     margin-top: 1rem;
-    padding: .5rem 1rem;
-    font-size: 1.25rem;
-    border-radius: .3rem;
-    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    border-radius: 6px;
+    color: white ;
 
-    &:disabled {
-        opacity:0.8;
-        cursor: none;
-    }
+    
     
 
 `;
@@ -247,24 +259,25 @@ export const ButtonGoogle = styled.button`
     background-color: #fff;
     border-color: #ecf2ff;
     width: 100%;
+    padding: 5px 12px;
     margin-bottom: 1rem!important;
-    padding: .5rem 1rem;
-    font-size: 1.25rem;
-    border-radius: .3rem;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 6px;
     color: #141c2c;
     
 
 `;
 
 export const LogoImage = styled.img`
-    width: 55%;
+    width: 20%;
     align-self: center;
-    margin-bottom: 2rem;
 
 `;
 
 export const Error = styled.div`
     background: #e87c03;
+    
     border-radius: 5px;
     font-size: 16px;
     color: white;

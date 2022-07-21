@@ -53,9 +53,9 @@ Form.Container = function FormContainer({children , ...restProps}){
 
 };
 
-Form.Line = function FormLine({children , ...restProps}){
+Form.Line = function FormLine({...restProps}){
 
-    return <Line {...restProps}>{children}</Line>
+    return <Line {...restProps}/>
 
 };
 

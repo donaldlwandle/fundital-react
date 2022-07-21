@@ -1,0 +1,58 @@
+[
+
+    {
+        "id" : 1,
+        "title" : "Learn anywhere .",
+        "subtitle" : "Get your self equiped with industry valuable skills.Learn anywhere at your own pace.",
+        "image" : "/images/misc/home-tv.jpg",
+        "alt" : "Tiger Tv tron"
+        
+    },
+
+
+    {
+        "id" : 2,
+        "title" : "Watch everywhere",
+        "subtitle" : "Stream your unlimited programs on all the Devices",
+        "image" : "/images/misc/home-imac.jpg",
+        "alt" : "watch on all devices"
+
+    },
+
+
+    {
+        "id" : 3,
+        "title" : "Download Programmes ",
+        "subtitle" : "Save your Data and watch all your programs offline",
+        "image" : "/images/misc/home-mobile.jpg",
+        "alt" : "Watch on tv"
+        
+
+    },
+
+    {
+        "id" : 4,
+        "title" : "Download Programmes",
+        "subtitle" : "Save your Data and watch all your programs offline",
+        "image" : "/images/misc/home-mobile.jpg",
+        "alt" : "Watch on tv"
+        
+
+    },
+
+    {
+        "id" : 5,
+        "title" : "Download Programmes to watch on the Go",
+        "subtitle" : "Save your Data and watch all your programs offline",
+        "image" : "/images/misc/home-mobile.jpg",
+        "alt" : "Watch on tv"
+        
+
+    }
+
+
+    
+
+    
+
+]

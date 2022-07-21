@@ -1,9 +1,9 @@
 import React from "react";
 
-import {Accordion, Optform} from "../components"
+import { Accordion } from "../components";
 import faqsData from "../fixtures/faqs.json"
 
-export function AccordionContainer(){
+export default function AccordionContainer() {
 
     return(
 
@@ -11,30 +11,17 @@ export function AccordionContainer(){
 
             <Accordion.Title>Frequently asked questions</Accordion.Title>
 
-            <Accordion.Frame>
-
-                {faqsData.map(item => 
-                    <Accordion.Item key = {item.id}>
-                        <Accordion.Header>{item.header}</Accordion.Header>
-                        <Accordion.Body>{item.body}</Accordion.Body>
-                    </Accordion.Item>
+            {faqsData.map(item => 
+                <Accordion.Item key = {item.id}>
+                    <Accordion.Header>{item.header}</Accordion.Header>
+                    <Accordion.Body>{item.body}</Accordion.Body>
+                </Accordion.Item>
                     
-                )}
+            )}
 
-
-            </Accordion.Frame>
+            <Accordion.Item/>
 
             
-
-            <Optform>
-
-                <Optform.Input placeholder = 'Enter your Email' />
-                <Optform.Button>Try it Now</Optform.Button>
-
-                <Optform.Break/>
-
-                <Optform.Text>Ready to watch? enter your email to create or restart your membership</Optform.Text>
-            </Optform>
         </Accordion>
     );
 }

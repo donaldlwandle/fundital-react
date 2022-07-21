@@ -2,9 +2,9 @@
 
     {
         "id" : 1,
-        "title" : "Enjoy on your TV",
-        "subtitle" : "watch on smart Tv, PlayStation, xBox, Cheome cast and More",
-        "image" : "/images/misc/home-tv.jpg",
+        "title" : "Learn anywhere at your own pace.",
+        "subtitle" : "Get your self equiped with industry valuable skills.Learn anywhere at your own pace.",
+        "image" : "/images/misc/online_learning.svg",
         "alt" : "Tiger Tv tron",
         "direction" : "row"
     },

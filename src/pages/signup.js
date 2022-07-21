@@ -1,7 +1,7 @@
 import React ,{useState , useContext} from "react"; 
 import { useHistory } from "react-router-dom";
 import { FirebaseContext } from "../context/firebase";
-import { FooterContainer } from "../containers/footerContainer";
+import FooterContainer from "../containers/footerContainer";
 import { Form } from "../components";
 import logo from "../fundital-logo.svg"
 import * as ROUTES from "../constants/routes"
@@ -62,11 +62,18 @@ export default function SignUpPage(){
 
                 <Form.Wraper>
 
+                    <Form.Pane>
+
+                        <Form.LogoImage alt= 'Fundital logo' src ={logo}/>
+
+                        <Form.Title>Sign up to Fundital</Form.Title>
+
+                    </Form.Pane>
+
                     
 
                     <Form.Frame>
 
-                        <Form.Title>Sign Up</Form.Title>
 
                         {error && <Form.Error>{error}</Form.Error>} 
                     
@@ -114,7 +121,7 @@ export default function SignUpPage(){
 
                             <Form.Button  disabled={isInvalid} type="submit">Sign Up</Form.Button>
 
-                            <Form.TextSmall2>Already have an account? <Form.Link to="/signin" >Sign In</Form.Link></Form.TextSmall2>
+                            <Form.TextSmall>Already have an account? <Form.Link to="/signin" >Sign In</Form.Link></Form.TextSmall>
 
                             
                             
@@ -125,14 +132,14 @@ export default function SignUpPage(){
 
                     </Form.Frame>
 
-                    <Form.FrameRight >
+                    <Form.Frame>
 
-                        <Form.LogoImage alt= 'Fundital logo' src ={logo}/>
-                        <Form.Title2>Welcome to fundital</Form.Title2>
+                        
+                        
                         <Form.TextSmall>By Signing up to this platform you agree to our <Form.Link>Terms Of Service</Form.Link></Form.TextSmall>
 
 
-                    </Form.FrameRight>
+                    </Form.Frame>
 
                     
 
