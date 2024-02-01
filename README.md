@@ -20,7 +20,10 @@ This application was bootstrapped with [Create React App](https://github.com/fac
 ## Data layer and Business Logic:
 ###### Firebase firestore handles all the data and that data is retrieved using a custom hook; authentication is used on all pages, which is handled by Firebase as well.
 
-
+## UI Preview:
+<img width="95%" src="https://drive.google.com/uc?export=download&id=13H2i5Wcf9SV4kaT33DYrzIMsaeI3kiUx"/>
+<img width="95%" src="https://drive.google.com/uc?export=download&id=10UdjJcy_LZXhu7peeHqKMHWV-IEGZRKq"/>
+<img width="95%" src="https://drive.google.com/uc?export=download&id=1BWSMdgoDknSM2jPDRjCIO2c14e3_HwbL"/>
 
 ## Available Scripts
 
