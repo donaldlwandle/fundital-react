@@ -2,9 +2,9 @@
 #### Fundital offers an online learning platform that facilitates the uptake of courses and tutorials, providing course hosting services for professionals and experts. Learning tools are presented in the form of videos and documentation. Additionally, Fundital supports collaboration between teachers and learners.
 
 ## UI Preview:
-<img width="95%" src="https://drive.google.com/uc?export=download&id=13H2i5Wcf9SV4kaT33DYrzIMsaeI3kiUx"/>
-<img width="95%" src="https://drive.google.com/uc?export=download&id=10UdjJcy_LZXhu7peeHqKMHWV-IEGZRKq"/>
-<img width="95%" src="https://drive.google.com/uc?export=download&id=1BWSMdgoDknSM2jPDRjCIO2c14e3_HwbL"/>
+<img width="95%" src="https://drive.google.com/thumbnail?id=13H2i5Wcf9SV4kaT33DYrzIMsaeI3kiUx&sz=w1000" />
+<img width="95%" src="https://drive.google.com/thumbnail?id=10UdjJcy_LZXhu7peeHqKMHWV-IEGZRKq&sz=w1000"/>
+<img width="95%" src="https://drive.google.com/thumbnail?id=1BWSMdgoDknSM2jPDRjCIO2c14e3_HwbL&sz=w1000"/>
 
 ## About the project:
 This application was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) as a base
